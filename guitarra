@@ -58,9 +58,8 @@ public class Guitarra {
       this.preco = preco;
     } 
     public static void main(String[] args) {
-      Guitarra minhaGuitarra = new Guitarra("01020304", "Fender", "Telecaster", "elétrica", "mogno", 1500);
+      Guitarra minhaGuitarra = new Guitarra("01058704", "Fender", "Telecaster", "elétrica", "mogno", 1500);
 
-      //Testando os dados da classe, imprimindo a saída simples no terminal
       System.out.println(minhaGuitarra.getNumeroSerie());
       System.out.println(minhaGuitarra.getFabricante());
       System.out.println(minhaGuitarra.getModelo());
